@@ -17,7 +17,7 @@
 
 ## :dart: Sobre
 
-**Brev.ly** é uma aplicação full stack de encurtamento de links, com geração de relatórios de acesso. O usuário pode criar links encurtados, acompanhar quantas vezes cada um foi acessado e exportar um relatório completo em CSV — arquivo esse hospedado em uma CDN (Cloudflare R2), gerado e servido de forma performática mesmo com um grande volume de dados.
+**Brev.ly** é uma aplicação full stack de encurtamento de links, com geração de relatórios de acesso. O usuário pode criar links encurtados, acompanhar quantas vezes cada um foi acessado e exportar um relatório completo em CSV hospedado em uma CDN (Cloudflare R2), gerado e servido de forma performática mesmo com um grande volume de dados.
 
 Principais funcionalidades:
 
