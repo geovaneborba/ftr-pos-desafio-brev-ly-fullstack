@@ -17,16 +17,17 @@
 
 ## :dart: Sobre
 
-Este desafio faz parte da Fase 1 da Pós-Graduação Full Stack da [Faculdade de Tecnologia Rocketseat](https://www.rocketseat.com.br/). <br />
-O objetivo é desenvolver uma aplicação full stack de encurtador de links, onde o usuário poderá:
+**Brev.ly** é uma aplicação full stack de encurtamento de links, com geração de relatórios de acesso. O usuário pode criar links encurtados, acompanhar quantas vezes cada um foi acessado e exportar um relatório completo em CSV — arquivo esse hospedado em uma CDN (Cloudflare R2), gerado e servido de forma performática mesmo com um grande volume de dados.
 
-- 🔗 Encurtar links;
-- 📄 Visualizar os links encurtados;
+Principais funcionalidades:
+
+- 🔗 Encurtar links, com validação de formato e de duplicidade;
+- 📄 Listar e visualizar todos os links encurtados;
 - ❌ Deletar links;
 - 📊 Acompanhar o histórico de acessos de cada link;
-- 📁 Gerar relatórios e exportá-los em formato CSV.
+- 📁 Gerar e exportar relatórios de acesso em CSV, disponibilizados via CDN.
 
-Essa aplicação servirá como base prática para consolidar os conhecimentos adquiridos durante o curso, aplicando conceitos de Front-end, Back-end, e DevOps.
+O projeto foi desenvolvido na Fase 1 da Pós-Graduação Full Stack da [Faculdade de Tecnologia Rocketseat](https://www.rocketseat.com.br/), com o front-end seguindo fielmente um layout do Figma e o back-end aplicando boas práticas de API (validação, testes e armazenamento performático de arquivos).
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
